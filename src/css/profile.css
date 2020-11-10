@@ -1,0 +1,45 @@
+.profile {
+    /* width: 90%; */
+    padding: 6rem 0;
+    margin: 20px auto;
+    /* background:  linear-gradient(
+        to right  bottom, 
+        rgba(183, 224, 248, 0.8), 
+        rgba(85, 184, 214, 0.8)); 
+    */
+    /* background:  linear-gradient(
+        to right  bottom, 
+        rgba(0, 0, 0, 0.8), 
+        rgba(63, 63, 63, 0.8)); */
+    background-color: #1c3272e8;
+    background-image: url("https://www.transparenttextures.com/patterns/old-wall.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+    margin-bottom: -2px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.profile__header {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.profile__containers-info-picture {
+    width: 350px;
+    border-radius: 50%;
+}
+
+.profile__containers-info {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.profile__containers-info-text {
+    margin-left: 30px;
+}

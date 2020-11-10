@@ -1,0 +1,39 @@
+.projects {
+    /* background:  linear-gradient(
+        to right  bottom, 
+        rgba(183, 224, 248, 0.8), 
+        rgba(85, 184, 214, 0.8));
+         */
+         
+
+    /* margin: -20px auto ; */
+    padding-top: 50px;
+    padding-bottom: 2rem;
+}
+
+.projects__hexagon-style {
+    padding: 6rem;
+    background-color:  #1c3272e8;
+    background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    clip-path: polygon(0 50%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+.projects__top {
+    background-color: rgb(207, 207, 207);
+    background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    
+    padding: 5px 0;
+    margin: 10px 0;
+}

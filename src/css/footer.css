@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footer__container-icons-footer{
+    align-items: center;
+}
+
+.footer__container-icons-footer > a > img {
+    width: 40px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo3 {
+    width: 50px!important;
+}
+
+.footer__bottom {
+    text-align: center;
+    background-color:  #1c3272e8;
+background-image: url("https://www.transparenttextures.com/patterns/redox-01.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    padding: 20px 0;
+
+}
+
+.footer__bottom > p {
+    font-weight: bold;
+}
+
+.footer__top {
+    background-color: rgb(207, 207, 207);
+    background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    
+    padding: 5px 0;
+    margin: 10px 0;
+}
