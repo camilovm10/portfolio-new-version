@@ -1,5 +1,5 @@
 .header {
-    
+    box-sizing: border-box;
 }
 
 .header__top {
@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 2rem 0;
+    margin: 3rem 0;
 }
 
 .logo {
@@ -25,20 +25,26 @@
 
 .header__navBar {
     display: flex;
-    list-style: none;
-    justify-content: space-around;
+    /* padding: 40px 0; */
 }
 
-.header__navBar > li {
+.header__navBar > a {
+    text-decoration: none;
     margin-right: 50px;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 900;
     color: black;
-
+    /* line-height: 15px; */
+    letter-spacing: 3px;
+    transition: all .3s ease;
+    /* padding: 10px; */
+    border: solid white;
 }
 
-.header__navBar > li:last-of-type {
-    margin-right: 100px;
+.header__navBar > a:hover {
     
+    color: #1c3272e8;
+    border-bottom:  solid #1c3272e8 ;
 
 }
+

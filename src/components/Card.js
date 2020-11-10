@@ -1,5 +1,16 @@
 import React from 'react';
 import '../css/card.css';
+import Stack from './Stack';
+import styled from 'styled-components/macro';
+
+const ContainerStack = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 20px;
+    align-items: center;
+    justify-content: center;
+`;
 
 export default function Card({ image, title, stack, url, description }) {
     return (
@@ -14,16 +25,15 @@ export default function Card({ image, title, stack, url, description }) {
                     <p>
                         {description}
                     </p>
-                    <h4> Technologies: </h4>
-                    <ul>
+                    <ContainerStack>
                         {stack.map(item => (
-                            <li> {item} </li>
+                            <Stack 
+                                tech={item}
+                            />
                         ))}
-                    </ul>
+                    </ContainerStack>
                 </div>
             </div>
-
-            
         </div>
     )
 };

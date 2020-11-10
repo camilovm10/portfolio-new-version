@@ -16,7 +16,8 @@
     left: 650px;
     border-radius: 3px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    text-align: center;
+    text-align: left;
+    padding: 2rem;
 }
 
 .card__image {
@@ -27,7 +28,7 @@
     /* position: relative; */
     /* z-index: 2; */
     /* filter: drop-shadow(2px 2px 5px #1c3272e8); */
-    filter: opacity(85%);
+    filter: contrast(110%) brightness(90%);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 

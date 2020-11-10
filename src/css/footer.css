@@ -9,6 +9,8 @@
     align-items: center;
 }
 
+
+
 .footer__container-icons-footer > a > img {
     width: 40px;
     align-items: center;
@@ -17,6 +19,10 @@
 
 .logo3 {
     width: 50px!important;
+}
+
+.logo4 {
+    margin-bottom: 3px;
 }
 
 .footer__bottom {
