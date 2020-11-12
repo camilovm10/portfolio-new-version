@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/portfolio-new-version/static/css/main.aac84a5d.chunk.css",
+    "main.js": "/portfolio-new-version/static/js/main.ca776ec2.chunk.js",
+    "main.js.map": "/portfolio-new-version/static/js/main.ca776ec2.chunk.js.map",
+    "runtime-main.js": "/portfolio-new-version/static/js/runtime-main.d2bebbb6.js",
+    "runtime-main.js.map": "/portfolio-new-version/static/js/runtime-main.d2bebbb6.js.map",
+    "static/js/2.16b6fcda.chunk.js": "/portfolio-new-version/static/js/2.16b6fcda.chunk.js",
+    "static/js/2.16b6fcda.chunk.js.map": "/portfolio-new-version/static/js/2.16b6fcda.chunk.js.map",
+    "index.html": "/portfolio-new-version/index.html",
+    "static/css/main.aac84a5d.chunk.css.map": "/portfolio-new-version/static/css/main.aac84a5d.chunk.css.map",
+    "static/js/2.16b6fcda.chunk.js.LICENSE.txt": "/portfolio-new-version/static/js/2.16b6fcda.chunk.js.LICENSE.txt",
+    "static/media/Firebase_Logo.c4f13648.png": "/portfolio-new-version/static/media/Firebase_Logo.c4f13648.png",
+    "static/media/Gatsby-Logo.b2fdcd1e.svg": "/portfolio-new-version/static/media/Gatsby-Logo.b2fdcd1e.svg",
+    "static/media/Nextjs-logo.2e296d8e.svg": "/portfolio-new-version/static/media/Nextjs-logo.2e296d8e.svg",
+    "static/media/Node.js_logo.dd47e26e.svg": "/portfolio-new-version/static/media/Node.js_logo.dd47e26e.svg",
+    "static/media/React-icon.3adc4d15.svg": "/portfolio-new-version/static/media/React-icon.3adc4d15.svg",
+    "static/media/Sass_Logo_Color.540ec25f.svg": "/portfolio-new-version/static/media/Sass_Logo_Color.540ec25f.svg",
+    "static/media/amazon-image.96df36ed.jpg": "/portfolio-new-version/static/media/amazon-image.96df36ed.jpg",
+    "static/media/bienesraices-image.a37c3dd6.jpg": "/portfolio-new-version/static/media/bienesraices-image.a37c3dd6.jpg",
+    "static/media/cover-image.097fb877.jpg": "/portfolio-new-version/static/media/cover-image.097fb877.jpg",
+    "static/media/dice-image.93259c08.jpg": "/portfolio-new-version/static/media/dice-image.93259c08.jpg",
+    "static/media/disney-image.6848c08b.JPG": "/portfolio-new-version/static/media/disney-image.6848c08b.JPG",
+    "static/media/foto-gris.762efa60.png": "/portfolio-new-version/static/media/foto-gris.762efa60.png",
+    "static/media/investment-image.3c470ac3.jpg": "/portfolio-new-version/static/media/investment-image.3c470ac3.jpg",
+    "static/media/logo-final-2.73a20207.png": "/portfolio-new-version/static/media/logo-final-2.73a20207.png",
+    "static/media/marketplace-image.7984489c.jpg": "/portfolio-new-version/static/media/marketplace-image.7984489c.jpg",
+    "static/media/mongodb.d89a6eeb.svg": "/portfolio-new-version/static/media/mongodb.d89a6eeb.svg",
+    "static/media/netflix-image.7c4d5565.jpg": "/portfolio-new-version/static/media/netflix-image.7c4d5565.jpg",
+    "static/media/patient-image.6e17603b.jpg": "/portfolio-new-version/static/media/patient-image.6e17603b.jpg",
+    "static/media/ping-image.1f3f9439.jpg": "/portfolio-new-version/static/media/ping-image.1f3f9439.jpg",
+    "static/media/profile.cee5fe2d.jpg": "/portfolio-new-version/static/media/profile.cee5fe2d.jpg",
+    "static/media/redux-dark.b673fbeb.png": "/portfolio-new-version/static/media/redux-dark.b673fbeb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2bebbb6.js",
+    "static/js/2.16b6fcda.chunk.js",
+    "static/css/main.aac84a5d.chunk.css",
+    "static/js/main.ca776ec2.chunk.js"
+  ]
+}
