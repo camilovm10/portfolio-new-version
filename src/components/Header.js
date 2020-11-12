@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../images/Camilo-vasquez-logo.png'
+import Logo from '../images/logo-final-2.png';
 import '../css/header.css';
 
 const Header = () => {
@@ -23,7 +23,7 @@ const Header = () => {
                     <Link to="/projects">
                         Projects
                     </Link>
-                    <Link>
+                    <Link to="/aboutme">
                         About me
                     </Link>
                     

@@ -7,6 +7,9 @@ import Technologies from './components/Technologies';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Hexagon from './components/Hexagon';
 import PreviewProjects from './components/PreviewProjects';
+import ProfileHome from './components/ProfileHome';
+import AboutMeBottom from './components/AboutMeBottom';
+import TechnologiesToLearn from './components/technologiesToLearn';
 
 function App() {
   return (
@@ -19,8 +22,15 @@ function App() {
             <Projects />
           </Route>
 
-          <Route path="/">
+          <Route path="/aboutme">
             <Profile />
+            <TechnologiesToLearn />
+            <Hexagon />
+            <AboutMeBottom />
+          </Route>
+
+          <Route path="/">
+            <ProfileHome />
             <Technologies />
             <Hexagon />
             <PreviewProjects />

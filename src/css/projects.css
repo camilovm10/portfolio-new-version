@@ -12,6 +12,11 @@
     background-color: #f1f5f8;
 }
 
+.projects__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .projects__hexagon-style {
     padding: 5rem;
     background-color:  #1c3272e8;

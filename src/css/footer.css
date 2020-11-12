@@ -5,6 +5,14 @@
     padding: 10px 0;
 }
 
+@media (max-width: 780px) {
+
+    .footer__contenedor-logo {
+        display: none;
+    }
+
+}
+
 .footer__container-icons-footer{
     align-items: center;
 }

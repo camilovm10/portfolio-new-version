@@ -1,11 +1,29 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/footer.css';
-import Logo from '../images/Camilo-vasquez-logo.png'
-import InstagramLogo from '../images/icons/instagram-brands.svg';
-import LinkedinLogo from '../images/icons/linkedin-brands.svg';
-import YoutubeLogo from '../images/icons/youtube-brands.svg';
-import GitHubLogo from '../images/icons/github.svg';
+import Logo from '../images/logo-final-2.png';
+
+import styled from 'styled-components/macro';
+
+const IconContainer = styled.div`
+    display: flex;
+    justify-content: center;
+
+    > a {
+        text-decoration: none;
+    }
+
+    > a > i {
+        font-size: 55px;
+        margin: 0 10px;
+        color: black;
+        transition: all .3s ease-in-out;
+    }
+
+    > a > i:hover {
+        color: #FFA713;
+    }
+`;
 
 export default function Footer() {
     return (
@@ -22,14 +40,12 @@ export default function Footer() {
                     <img className="logo" src={Logo}/>
                     </Link>
                 </div>
-                <div className="footer__container-icons-footer">
-                    
-                    <a href="https://www.instagram.com/camilovasqz/" target="_blank"><img className="logo" src={InstagramLogo}/></a>
-                    
-                    <a href="https://www.youtube.com/user/camilovm2008" target="_blank"><img className="logo3" src={YoutubeLogo}/></a>
-                    <a href="https://www.linkedin.com/in/juan-camilo-vasquez-mira-3612911ab/" target="_blank"><img className="logo" src={LinkedinLogo}/></a>
-                    <a href="https://github.com/camilovm10/" target="_blank"><img className="logo4" src={GitHubLogo}/></a>
-                </div>
+                <IconContainer>
+                        <a href="https://www.instagram.com/camilovasqz/" target="_blank"><i className="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/hoteldanncarltonmedellin/" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                        <a href="https://www.linkedin.com/in/juan-camilo-vasquez-mira-3612911ab/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/camilovm10/CV" target="_blank"><i class="fab fa-github-square"></i></a>
+                </IconContainer>
             </div>
             <div className="footer__top">
 

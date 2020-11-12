@@ -29,7 +29,7 @@ const Button = styled.button`
     padding: 15px 30px;
     background-color: rgb(207, 207, 207);
     background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
-    margin-top: 30px;
+    margin: 20px auto;
     border: 1px solid rgb(207, 207, 207);
     font-size: 18px;
     transition: all .3s ease;
@@ -38,6 +38,12 @@ const Button = styled.button`
         background-color: rgb(192, 192, 192);
         cursor: pointer;
     }
+`;
+
+const ContainerButton = styled.div`
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
 `;
 
 export default function PreviewProjects() {
@@ -60,12 +66,16 @@ export default function PreviewProjects() {
                 title="Real State Web Page"
                 url={'https://upbeat-jones-0c5c61.netlify.app/'}
             />
-            <Link to="/projects#">
-                <Button>
-                    All Projects
-                </Button>
-            </Link>
+            
         </Container>
+
+        <ContainerButton>
+            <Link to="/projects#">
+                    <Button>
+                        All Projects
+                    </Button>
+            </Link>
+        </ContainerButton>
         </>
     )
 }

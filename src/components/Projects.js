@@ -1,13 +1,13 @@
 import React from 'react';
 import '../css/projects.css';
 
-import NetflixImage from '../images/netflix-clone.jpg';
-import RealState1 from '../images/realstate-1.jpg';
-import PatientAdmin from '../images/patient-admin.jpg';
-import AmazonClone from '../images/amazon-clone.jpg';
-import DiceeImage from '../images/dicee-game.jpg';
-import PingPongImage from '../images/ping-pong.jpg';
-import MarketPlaceImage from '../images/marketplace-angular.jpg';
+import NetflixImage from '../images/project-images/netflix-image.jpg';
+import RealState1 from '../images/project-images/bienesraices-image.jpg';
+import PatientAdmin from '../images/project-images/patient-image.jpg';
+import AmazonClone from '../images/project-images/amazon-image.jpg';
+import DiceeImage from '../images/project-images/dice-image.jpg';
+import PingPongImage from '../images/project-images/ping-image.jpg';
+import MarketPlaceImage from '../images/project-images/marketplace-image.jpg';
 
 import Card from './Card';
 import styled from 'styled-components/macro';
@@ -16,6 +16,10 @@ const Title = styled.h2`
     font-size: 42px;
     color: black;
     font-weight: 700;
+
+    @media (max-width: 1200px) {
+        margin-bottom: 90px; 
+    }
 `;
 
 export default function Projects() {
@@ -69,7 +73,7 @@ export default function Projects() {
                     image={DiceeImage}
                     title={'Dice Game'}
                     stack={['Javascript', 'CSS']}
-                    url={'https://unruffled-heisenberg-5921d8.netlify.app/'}
+                    url={'https://hopeful-beaver-f0a9eb.netlify.app/'}
                     description="Fun game made with javascript. My first steps with the DOM manipulation."
                 />
                 <Card  

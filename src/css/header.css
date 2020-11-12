@@ -19,13 +19,31 @@
 }
 
 .logo {
-    width: 250px;
+    width: 400px;
     padding: 0;
 }
 
 .header__navBar {
     display: flex;
     /* padding: 40px 0; */
+
+}
+
+@media (max-width: 893px) {
+
+    .header__navBarContainer {
+        flex-direction: column;
+    }
+
+    .header__navBar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__navBar > a {
+        margin-right: 0!important;
+    }
+    
 }
 
 .header__navBar > a {
@@ -43,8 +61,8 @@
 
 .header__navBar > a:hover {
     
-    color: #1c3272e8;
-    border-bottom:  solid #1c3272e8 ;
+    color: #FFA713;
+    border-bottom:  solid #FFA713 ;
 
 }
 

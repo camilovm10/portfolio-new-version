@@ -1,0 +1,47 @@
+.technologies {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+.technologies__top {
+    background-color: rgb(207, 207, 207);
+    background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    
+    padding: 5px 0;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.technologies__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.technologies__container-logo-0 {
+    width: 400px;
+    height: 150px;
+}
+
+.technologies__container-logo-1 {
+    width: 170px;
+    height: 130px;
+}
+
+.technologies__container-logo-2 {
+    
+    margin-right: -30px;
+}
+
+
+.technologies__container-logo-3 {
+    width: 300px;
+    height: 130px;
+}
