@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import PreviewCard from './PreviewCard';
-import DiceeImage from '../images/dicee-game.jpg';
-import NetflixImage from '../images/netflix-clone.jpg';
-import RealState1 from '../images/realstate-1.jpg';
+import DiceeImage from '../images/project-images/dice-image.jpg';
+import NetflixImage from '../images/project-images/netflix-image.jpg';
+import RealState1 from '../images/project-images/bienesraices-image.jpg';
 
 import { Link } from 'react-router-dom';
 

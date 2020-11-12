@@ -92,7 +92,7 @@ export default function AboutMeBottom() {
                         <Title> Investing </Title>
                         <BlueBorder></BlueBorder>
                         <Text> 
-                            Since I was a child I love the idea of make money. I started several business ideas and projects when I was 17 years old, and today I'm mainly focused on real state and stock market. 2020 has been my most profitable year, even with the pandemic, and above all things this year taught me about the importance of difersification and risk management.
+                            Since I was a child I love the idea of make money. I started several business ideas and projects when I was 17 years old. Today I'm mainly focused on real state and stock market. 2020 has been my most profitable year, even with the pandemic, and above all things this year taught me about the importance of difersification and risk management.
                         </Text>
                     </TextCamiloContainer>
                 </TextContainer>
