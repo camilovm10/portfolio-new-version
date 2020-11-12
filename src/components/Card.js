@@ -9,7 +9,11 @@ const ContainerStack = styled.div`
     /* position: absolute;
     bottom: 20px; */
     align-items: center;
-    justify-content: center;
+
+    @media (max-width: 1200px) {
+        justify-content: center;
+    }
+
 `;
 
 const ContainerImage = styled.div`

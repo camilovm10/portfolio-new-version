@@ -10,6 +10,15 @@ const Border = styled.span`
 
 const Container = styled.div`
     margin: 0 5px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    @media (max-width: 555px) {
+        margin-bottom: 10px;
+    }
+
 `;
 
 export default function Stack({ tech }) {
