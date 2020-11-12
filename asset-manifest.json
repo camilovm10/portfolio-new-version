@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-new-version/static/css/main.aac84a5d.chunk.css",
+    "main.css": "/portfolio-new-version/static/css/main.c13118df.chunk.css",
     "main.js": "/portfolio-new-version/static/js/main.978ff7d5.chunk.js",
     "main.js.map": "/portfolio-new-version/static/js/main.978ff7d5.chunk.js.map",
     "runtime-main.js": "/portfolio-new-version/static/js/runtime-main.d2bebbb6.js",
@@ -8,7 +8,7 @@
     "static/js/2.16b6fcda.chunk.js": "/portfolio-new-version/static/js/2.16b6fcda.chunk.js",
     "static/js/2.16b6fcda.chunk.js.map": "/portfolio-new-version/static/js/2.16b6fcda.chunk.js.map",
     "index.html": "/portfolio-new-version/index.html",
-    "static/css/main.aac84a5d.chunk.css.map": "/portfolio-new-version/static/css/main.aac84a5d.chunk.css.map",
+    "static/css/main.c13118df.chunk.css.map": "/portfolio-new-version/static/css/main.c13118df.chunk.css.map",
     "static/js/2.16b6fcda.chunk.js.LICENSE.txt": "/portfolio-new-version/static/js/2.16b6fcda.chunk.js.LICENSE.txt",
     "static/media/Firebase_Logo.c4f13648.png": "/portfolio-new-version/static/media/Firebase_Logo.c4f13648.png",
     "static/media/Gatsby-Logo.b2fdcd1e.svg": "/portfolio-new-version/static/media/Gatsby-Logo.b2fdcd1e.svg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.d2bebbb6.js",
     "static/js/2.16b6fcda.chunk.js",
-    "static/css/main.aac84a5d.chunk.css",
+    "static/css/main.c13118df.chunk.css",
     "static/js/main.978ff7d5.chunk.js"
   ]
 }
