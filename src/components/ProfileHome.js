@@ -94,7 +94,7 @@ export default function ProfileHome() {
         <>
         <BarTop>
         </BarTop>
-
+        
         <Container>
             <TextContainer>
                 <TextCamiloContainer>
